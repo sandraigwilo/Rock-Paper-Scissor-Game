@@ -1,0 +1,81 @@
+/* CSS RESET */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* styling my body section */
+  
+  body {
+    background-image: url(https://res.cloudinary.com/drehoexla/image/upload/v1654679928/chess_ekxglz.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  /* styling the heading */
+  
+  h1 {
+    text-align: center;
+    color: red;
+    box-sizing: border-box;
+    border: 2px solid rgb(163, 163, 191);
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+  }
+  
+  /* styling the table */
+  
+  table {
+    width: 12cm;
+    height: 12cm;
+    border: 20px solid red;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  
+  /* styling the white squares */
+  
+  .white {
+    margin-left: auto;
+    margin-left: auto;
+    width: 1cm;
+    height: 1cm;
+    background-color: rgb(233, 226, 226);
+    color: black;
+  }
+  
+  /* styling the red squares */
+  
+  .black {
+    margin-left: auto;
+    margin-left: auto;
+    width: 1cm;
+    height: 1cm;
+    background-color: rgba(254, 5, 5, 0.979);
+    color: black;
+  }
+  
+  /* styling the footer */
+  
+  footer {
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  

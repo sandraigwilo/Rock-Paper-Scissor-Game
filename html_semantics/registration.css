@@ -1,0 +1,278 @@
+/* CSS RESET */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(251, 250, 250);
+    font-size: 20px;
+    font-weight: bolder; 
+}
+
+/* Adding background image */
+
+body{
+    background-image: url(Images/Fullstack1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Removing the bullets in the navigation bar */
+
+nav{
+    text-align: center;
+    border: 1px;
+    border-radius: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    align-items: center;
+}
+
+/* Aligning list horizontally */
+
+nav li{
+    display: inline;    
+}
+
+/* Spacing the list items and removing  */
+
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+    margin: 50px;
+}
+
+/* Changing link colour on hover  */
+
+nav li a:hover{
+    background-color: rgb(254, 3, 203);
+    border-radius: 20px;
+}
+
+/* Allowing user know the current page they are on */
+
+.active{
+    background-color: rgb(253, 120, 4);
+    border-radius: 20px;
+}
+
+/* Making navigation bar fixed while scrolling through page */
+
+nav ul{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+/* This is the heading */
+
+h1{
+    position: relative;
+    top: 100px;
+    font-size: xx-large;
+    color: rgb(253, 120, 4);
+}
+
+/* The form */
+
+.frm{
+    box-sizing: border-box;
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: 100px;
+    left: 450px;
+}
+
+/* First name */
+
+.fn{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#fname{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* Last name */
+
+.ln{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#lname{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* Phone number */
+
+.num{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#phone{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* Gender */
+
+.gen{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#gender{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* Country */
+
+.cty{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#origin{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* State/province */
+
+.sp{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#state{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* Email */
+
+.em{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#email{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* Password */
+
+.pass{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#password{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* Confirm Password */
+
+.cpass{
+    font-size: 20px;
+    color: rgb(253, 252, 250);
+}
+
+#cpassword{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(21, 20, 20);
+    background-color: rgb(243, 242, 246);
+    font-size: large;
+}
+
+/* Stylying the register button */
+
+button{
+    background-color: rgb(253, 120, 4);
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 200px;
+    left: 70px;
+}
+
+button:hover{
+    background-color: rgb(254, 3, 203);
+}
+
+/* Sign in */
+
+.account{
+    position: relative;
+    top: 200px;
+    left: 70px;
+    margin-bottom: 50px;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(253, 120, 4);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+p a:hover{
+    background-color: rgb(254, 3, 203);
+}
