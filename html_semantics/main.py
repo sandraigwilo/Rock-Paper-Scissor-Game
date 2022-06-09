@@ -74,7 +74,7 @@ def rock_scissor_paper(player, cpu):
         player = wrong_input(player)
         return beats(player, cpu)
 
-# Testing
+# Testing the game
 if player == cpu:
     player, cpu = tie(player, cpu)
     print(rock_scissor_paper(player, cpu))
